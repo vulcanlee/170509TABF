@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="XFXAML.Views.MainPage"
+             Title="MainPage"
+             BackgroundColor="Green">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Entry Placeholder="請輸入帳號"/>
+        <Label Text="Hi Xamarin.Forms" TextColor="Red" FontSize="Large"/>
+        <BoxView
+            WidthRequest="100" HeightRequest="50"
+            Color="Yellow"/>
+        <Button Text="登入"/>
+    </StackLayout>
+</ContentPage>
